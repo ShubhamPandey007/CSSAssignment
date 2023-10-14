@@ -1,0 +1,58 @@
+body, html {
+    height: 100%;
+    margin: 0;
+  }
+  
+  .maincontainer{
+    background-image: url("background.jpg");
+    height: 100%; 
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .contanier{
+    display: flex;
+    flex-direction: column;
+  }
+.left{
+    background-color:lightslategray;
+    width: 400px;
+    padding: 12px;
+    margin: 22px;
+    display: inline-block;
+    
+}
+.right{
+    background-color: rgba(177, 191, 204, 0.863);
+    padding: 10px;
+    margin: 22px;
+    width: 700px;
+    display: inline-block;
+    
+}
+.first{
+    background-color: white;
+}
+.first button:hover{
+    background-color: lightcoral;
+    cursor: pointer;
+}
+.second{
+    background-color: white;
+}
+.second button:hover{
+    background-color: lightcoral;
+    cursor: pointer;
+}
+.thired{
+    background-color: white;
+}
+.thired button:hover{
+    background-color: lightcoral;
+    cursor: pointer;
+}
+.a{
+    background-color: black;
+    color: white;
+    height: 50px;
+    width: 50px;
+}
