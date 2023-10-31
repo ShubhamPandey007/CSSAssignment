@@ -1,0 +1,109 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#header{
+    width: 100%;
+    min-height: 50px;
+    background-color: gray;
+
+}
+#logo {
+    width: 50%;
+    min-height: 50px;
+    float: left;
+    padding-left: 4%;
+    line-height: 50px;
+    cursor:pointer;
+    font-size: x-large;
+    font-weight: 600;
+}
+#nav {
+    width: 50%;
+    min-height: 50px;
+    float: right;
+    line-height: 50px;
+    cursor:pointer;
+    font-size: x-large;
+    font-weight: 600;
+}
+
+.clearfix::after {
+
+    content: "";
+    display: block;
+    clear: both;
+
+}
+
+.row {
+    width: 100%;
+    min-height: 100px;
+    /* background-color: red; */
+    margin-top: 10px;
+}
+
+.col {
+    width: 20%;
+    min-height: 100px;
+    background-color: lightgray;
+    float: left;
+    cursor:pointer;
+    font-size: x-large;
+    font-weight: 600;
+
+}
+
+.col:nth-child(2) {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.col:nth-child(3) {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+#boxes {
+    width: 100%;
+    min-height: 150px;
+    margin-top: 10px;
+}
+
+.box {
+    width: 30%;
+    min-height: 150px;
+    background-color: gray;
+    float:left;
+    text-align: center;
+    line-height: 150px;
+    cursor:pointer;
+    font-size: x-large;
+    font-weight: 600;
+
+}
+
+.box:nth-child(2) {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+#footer {
+    width: 100%;
+    min-height: 50px;
+    background-color: gray;
+    margin-top: 10px;
+    text-align: center;
+    line-height: 50px;
+    cursor:pointer;
+    font-size: x-large;
+    font-weight: 600;
+}
+
+#wrapper-div {
+    width: 80%;
+    margin: auto;
+    background-color: orange;
+}
