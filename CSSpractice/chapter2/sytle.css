@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.red{
+    background-color: green;
+    color: while;
+    width: 77%;
+    height: 99%;
+    border: 2px solid black;
+    padding: 2px;
+}
+#green{
+    background-color: yellow;
+    color: red;
+    width: 77%;
+    height: 99%;
+    border: 2px solid blue;
+    padding: 3px;
+}
